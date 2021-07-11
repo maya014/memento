@@ -1,0 +1,52 @@
+@media only screen and (max-width: 950px){
+.navbar-block 
+{
+    display: none;
+}
+.burgernav 
+{
+display: inline-block;
+justify-content: flex-end;
+} 
+
+.row-block
+{
+  display: none;
+}
+.b-section 
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.d-main{
+  background-color: white;
+  width: 20px;
+  height: 50px;
+
+}
+.m-section{
+  background-color: white;
+  width: 500px;
+  height: 1000px;
+  right: 35%;
+
+
+}
+.d-footer.one-block
+{
+  padding: 40%;
+  flex-wrap: wrap;
+}
+.d-footer .footer-block,
+ .width-block{
+  padding: 50%;
+}
+}
+@media only screen and (max-width: 600px) {  
+ 
+ .col-text{
+width: 550px;
+}
+.one-block .icon{
+padding: 20% 15%;
+}
